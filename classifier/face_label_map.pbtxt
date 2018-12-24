@@ -1,6 +1,6 @@
 item {
-  name: "face"
+  name: "green"
   id: 1
-  display_name: "face"
+  display_name: "green"
 }
 
