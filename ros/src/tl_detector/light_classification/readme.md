@@ -20,6 +20,8 @@ Normalized coordinates: [ymin, xmin, ymax, xmax]
 ymin, xmin is the top left corner. ymax, xmax is the bottom right corner. (0, 0) is at the top left corner of the image.  
 The size of the boxes indicate the distance of the vehicle from the object, and that information can be utilized in the vehicle control.  
 
+In Workspace environment, the process speed is around 10 FPS.  
+
 ## Known Issue  
 1. In Workspace environment, due to unknown reason, the classifier might stop working after running for a while. No error message.  
 2. When vehicle is far from the object, the detection is not stable. A filter is suggested to be added in tl_detector.py to smooth out the detection.
