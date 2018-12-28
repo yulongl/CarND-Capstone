@@ -4,7 +4,7 @@
 
 self.min_score is the threshold to determine if an object is detected. The range is from 0 to 1. If your are getting too many false positives, this can be considered to be increased.
 
-When self.is_sight is false, the frozen graph for the simmulator environment will be loaded. Please put the .pb graph file in the same path as tl_classifier.py.
+When self.is_sight is false, the frozen graph for the simmulator environment will be loaded. Please put the .pb graph file in the same path as tl_classifier.py. To change frozen graph, just modify the self.model assignment.  
 
 
 ## TLClassifier.get_classification  
